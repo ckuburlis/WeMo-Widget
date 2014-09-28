@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83D368F819D82EA3000DA2BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D368F719D82EA3000DA2BC /* AppDelegate.swift */; };
+		83D368FA19D82EA3000DA2BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D368F919D82EA3000DA2BC /* ViewController.swift */; };
+		83D368FD19D82EA3000DA2BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D368FB19D82EA3000DA2BC /* Main.storyboard */; };
+		83D368FF19D82EA3000DA2BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D368FE19D82EA3000DA2BC /* Images.xcassets */; };
+		83D3690219D82EA3000DA2BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D3690019D82EA3000DA2BC /* LaunchScreen.xib */; };
+		83D3690E19D82EA3000DA2BC /* wemo_widgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D3690D19D82EA3000DA2BC /* wemo_widgetTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83D3690819D82EA3000DA2BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D368EA19D82EA2000DA2BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D368F119D82EA3000DA2BC;
+			remoteInfo = wemo_widget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83D368F219D82EA3000DA2BC /* wemo_widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wemo_widget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D368F619D82EA3000DA2BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D368F719D82EA3000DA2BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83D368F919D82EA3000DA2BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83D368FC19D82EA3000DA2BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83D368FE19D82EA3000DA2BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83D3690119D82EA3000DA2BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		83D3690719D82EA3000DA2BC /* wemo_widgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wemo_widgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D3690C19D82EA3000DA2BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D3690D19D82EA3000DA2BC /* wemo_widgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wemo_widgetTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83D368EF19D82EA3000DA2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D3690419D82EA3000DA2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83D368E919D82EA2000DA2BC = {
+			isa = PBXGroup;
+			children = (
+				83D368F419D82EA3000DA2BC /* wemo_widget */,
+				83D3690A19D82EA3000DA2BC /* wemo_widgetTests */,
+				83D368F319D82EA3000DA2BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83D368F319D82EA3000DA2BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83D368F219D82EA3000DA2BC /* wemo_widget.app */,
+				83D3690719D82EA3000DA2BC /* wemo_widgetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83D368F419D82EA3000DA2BC /* wemo_widget */ = {
+			isa = PBXGroup;
+			children = (
+				83D368F719D82EA3000DA2BC /* AppDelegate.swift */,
+				83D368F919D82EA3000DA2BC /* ViewController.swift */,
+				83D368FB19D82EA3000DA2BC /* Main.storyboard */,
+				83D368FE19D82EA3000DA2BC /* Images.xcassets */,
+				83D3690019D82EA3000DA2BC /* LaunchScreen.xib */,
+				83D368F519D82EA3000DA2BC /* Supporting Files */,
+			);
+			path = wemo_widget;
+			sourceTree = "<group>";
+		};
+		83D368F519D82EA3000DA2BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83D368F619D82EA3000DA2BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83D3690A19D82EA3000DA2BC /* wemo_widgetTests */ = {
+			isa = PBXGroup;
+			children = (
+				83D3690D19D82EA3000DA2BC /* wemo_widgetTests.swift */,
+				83D3690B19D82EA3000DA2BC /* Supporting Files */,
+			);
+			path = wemo_widgetTests;
+			sourceTree = "<group>";
+		};
+		83D3690B19D82EA3000DA2BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83D3690C19D82EA3000DA2BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83D368F119D82EA3000DA2BC /* wemo_widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D3691119D82EA3000DA2BC /* Build configuration list for PBXNativeTarget "wemo_widget" */;
+			buildPhases = (
+				83D368EE19D82EA3000DA2BC /* Sources */,
+				83D368EF19D82EA3000DA2BC /* Frameworks */,
+				83D368F019D82EA3000DA2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wemo_widget;
+			productName = wemo_widget;
+			productReference = 83D368F219D82EA3000DA2BC /* wemo_widget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83D3690619D82EA3000DA2BC /* wemo_widgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D3691419D82EA3000DA2BC /* Build configuration list for PBXNativeTarget "wemo_widgetTests" */;
+			buildPhases = (
+				83D3690319D82EA3000DA2BC /* Sources */,
+				83D3690419D82EA3000DA2BC /* Frameworks */,
+				83D3690519D82EA3000DA2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D3690919D82EA3000DA2BC /* PBXTargetDependency */,
+			);
+			name = wemo_widgetTests;
+			productName = wemo_widgetTests;
+			productReference = 83D3690719D82EA3000DA2BC /* wemo_widgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83D368EA19D82EA2000DA2BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Chris Kuburlis";
+				TargetAttributes = {
+					83D368F119D82EA3000DA2BC = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					83D3690619D82EA3000DA2BC = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 83D368F119D82EA3000DA2BC;
+					};
+				};
+			};
+			buildConfigurationList = 83D368ED19D82EA2000DA2BC /* Build configuration list for PBXProject "wemo_widget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83D368E919D82EA2000DA2BC;
+			productRefGroup = 83D368F319D82EA3000DA2BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83D368F119D82EA3000DA2BC /* wemo_widget */,
+				83D3690619D82EA3000DA2BC /* wemo_widgetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83D368F019D82EA3000DA2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D368FD19D82EA3000DA2BC /* Main.storyboard in Resources */,
+				83D3690219D82EA3000DA2BC /* LaunchScreen.xib in Resources */,
+				83D368FF19D82EA3000DA2BC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D3690519D82EA3000DA2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83D368EE19D82EA3000DA2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D368FA19D82EA3000DA2BC /* ViewController.swift in Sources */,
+				83D368F819D82EA3000DA2BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D3690319D82EA3000DA2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D3690E19D82EA3000DA2BC /* wemo_widgetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83D3690919D82EA3000DA2BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D368F119D82EA3000DA2BC /* wemo_widget */;
+			targetProxy = 83D3690819D82EA3000DA2BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83D368FB19D82EA3000DA2BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D368FC19D82EA3000DA2BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83D3690019D82EA3000DA2BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D3690119D82EA3000DA2BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83D3690F19D82EA3000DA2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83D3691019D82EA3000DA2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83D3691219D82EA3000DA2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wemo_widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83D3691319D82EA3000DA2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wemo_widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83D3691519D82EA3000DA2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = wemo_widgetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wemo_widget.app/wemo_widget";
+			};
+			name = Debug;
+		};
+		83D3691619D82EA3000DA2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = wemo_widgetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wemo_widget.app/wemo_widget";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83D368ED19D82EA2000DA2BC /* Build configuration list for PBXProject "wemo_widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D3690F19D82EA3000DA2BC /* Debug */,
+				83D3691019D82EA3000DA2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D3691119D82EA3000DA2BC /* Build configuration list for PBXNativeTarget "wemo_widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D3691219D82EA3000DA2BC /* Debug */,
+				83D3691319D82EA3000DA2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83D3691419D82EA3000DA2BC /* Build configuration list for PBXNativeTarget "wemo_widgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D3691519D82EA3000DA2BC /* Debug */,
+				83D3691619D82EA3000DA2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83D368EA19D82EA2000DA2BC /* Project object */;
+}
