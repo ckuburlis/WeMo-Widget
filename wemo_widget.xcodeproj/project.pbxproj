@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8396F84119D953D90027C76F /* libPods-Reachability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8396F84019D953D90027C76F /* libPods-Reachability.a */; };
-		83CCEB941A11CBC500D4D193 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CCEB931A11CBC500D4D193 /* SystemConfiguration.framework */; };
+		8319F5131A2AA74E0084D425 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CCEB931A11CBC500D4D193 /* SystemConfiguration.framework */; };
+		8319F5171A2AA8D70084D425 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8319F5161A2AA8D70084D425 /* Reachability.swift */; };
+		8319F5181A2AAA5B0084D425 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8319F5161A2AA8D70084D425 /* Reachability.swift */; };
 		83CCEB961A11CE7400D4D193 /* WemoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCEB951A11CE7400D4D193 /* WemoWidget.swift */; };
 		83CCEBAA1A11DA5A00D4D193 /* WemoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCEB951A11CE7400D4D193 /* WemoWidget.swift */; };
 		83D368F819D82EA3000DA2BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D368F719D82EA3000DA2BC /* AppDelegate.swift */; };
@@ -22,7 +23,6 @@
 		83D3692519D82F3F000DA2BC /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D3692419D82F3F000DA2BC /* MainInterface.storyboard */; };
 		83D3692819D82F3F000DA2BC /* wemo_widget_today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 83D3691B19D82F3F000DA2BC /* wemo_widget_today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		83D3693019D83055000DA2BC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D3692F19D83055000DA2BC /* CoreMedia.framework */; };
-		90C8E86524B4AFC59980B329 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F418FC6B2561E39FB50EF250 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,17 +64,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		024DBEC4F38869B513FF4FEB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		15120E9E40BE9BDD5B8EB64C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8319F5161A2AA8D70084D425 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		8352906719D950D200879B02 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		8371839B19D9039D00470A8B /* wemo_widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wemo_widget.entitlements; sourceTree = "<group>"; };
 		8371839C19D903D900470A8B /* wemo_widget_today.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wemo_widget_today.entitlements; sourceTree = "<group>"; };
-		8396F84019D953D90027C76F /* libPods-Reachability.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Reachability.a"; path = "Pods/build/Debug-iphoneos/libPods-Reachability.a"; sourceTree = "<group>"; };
 		83CCEB931A11CBC500D4D193 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		83CCEB951A11CE7400D4D193 /* WemoWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WemoWidget.swift; sourceTree = "<group>"; };
-		83CCEBA61A11D3EC00D4D193 /* SwiftHTTP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftHTTP.framework; path = "SwiftHTTP/build/Debug-iphoneos/SwiftHTTP.framework"; sourceTree = "<group>"; };
-		83CCEBA81A11D43000D4D193 /* SwiftHTTP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftHTTP.framework; path = "SwiftHTTP/build/Debug-iphoneos/SwiftHTTP.framework"; sourceTree = "<group>"; };
-		83CCEBAB1A11F6E500D4D193 /* SwiftHTTP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftHTTP.framework; path = "SwiftHTTP/build/Debug-iphoneos/SwiftHTTP.framework"; sourceTree = "<group>"; };
 		83D368F219D82EA3000DA2BC /* wemo_widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wemo_widget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D368F619D82EA3000DA2BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83D368F719D82EA3000DA2BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,9 +86,6 @@
 		83D3692219D82F3F000DA2BC /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		83D3692419D82F3F000DA2BC /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		83D3692F19D83055000DA2BC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		83F05DEA1A121050002AD40A /* SwiftyHTTP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyHTTP.framework; path = "SwiftyHTTP/build/Debug-iphoneos/SwiftyHTTP.framework"; sourceTree = "<group>"; };
-		83F05DEC1A12105A002AD40A /* SwiftyHTTP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyHTTP.framework; path = "SwiftyHTTP/build/Debug-iphoneos/SwiftyHTTP.framework"; sourceTree = "<group>"; };
-		F418FC6B2561E39FB50EF250 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +93,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83CCEB941A11CBC500D4D193 /* SystemConfiguration.framework in Frameworks */,
+				8319F5131A2AA74E0084D425 /* SystemConfiguration.framework in Frameworks */,
 				83D3693019D83055000DA2BC /* CoreMedia.framework in Frameworks */,
-				90C8E86524B4AFC59980B329 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +109,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8396F84119D953D90027C76F /* libPods-Reachability.a in Frameworks */,
 				83D3691E19D82F3F000DA2BC /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,15 +116,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6967B7AE74F776520F03F71C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				15120E9E40BE9BDD5B8EB64C /* Pods.debug.xcconfig */,
-				024DBEC4F38869B513FF4FEB /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		83D368E919D82EA2000DA2BC = {
 			isa = PBXGroup;
 			children = (
@@ -144,7 +125,6 @@
 				83D3691F19D82F3F000DA2BC /* wemo_widget_today */,
 				83D3691C19D82F3F000DA2BC /* Frameworks */,
 				83D368F319D82EA3000DA2BC /* Products */,
-				6967B7AE74F776520F03F71C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				8371839B19D9039D00470A8B /* wemo_widget.entitlements */,
+				8319F5161A2AA8D70084D425 /* Reachability.swift */,
 				83D368F719D82EA3000DA2BC /* AppDelegate.swift */,
 				83D368F919D82EA3000DA2BC /* ViewController.swift */,
 				83CCEB951A11CE7400D4D193 /* WemoWidget.swift */,
@@ -201,16 +182,9 @@
 		83D3691C19D82F3F000DA2BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				83F05DEC1A12105A002AD40A /* SwiftyHTTP.framework */,
-				83F05DEA1A121050002AD40A /* SwiftyHTTP.framework */,
-				83CCEBAB1A11F6E500D4D193 /* SwiftHTTP.framework */,
-				83CCEBA81A11D43000D4D193 /* SwiftHTTP.framework */,
-				83CCEBA61A11D3EC00D4D193 /* SwiftHTTP.framework */,
 				83CCEB931A11CBC500D4D193 /* SystemConfiguration.framework */,
-				8396F84019D953D90027C76F /* libPods-Reachability.a */,
 				83D3692F19D83055000DA2BC /* CoreMedia.framework */,
 				83D3691D19D82F3F000DA2BC /* NotificationCenter.framework */,
-				F418FC6B2561E39FB50EF250 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -241,12 +215,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83D3691119D82EA3000DA2BC /* Build configuration list for PBXNativeTarget "wemo_widget" */;
 			buildPhases = (
-				1C0FC992BAB1EBEC25C326E6 /* Check Pods Manifest.lock */,
 				83D368EE19D82EA3000DA2BC /* Sources */,
 				83D368EF19D82EA3000DA2BC /* Frameworks */,
 				83D368F019D82EA3000DA2BC /* Resources */,
 				83D3692E19D82F40000DA2BC /* Embed App Extensions */,
-				229CDE08F87A1CBA1768C0E9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -375,39 +347,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		1C0FC992BAB1EBEC25C326E6 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		229CDE08F87A1CBA1768C0E9 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		83D368EE19D82EA3000DA2BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -415,6 +354,7 @@
 			files = (
 				83D368FA19D82EA3000DA2BC /* ViewController.swift in Sources */,
 				83CCEB961A11CE7400D4D193 /* WemoWidget.swift in Sources */,
+				8319F5171A2AA8D70084D425 /* Reachability.swift in Sources */,
 				83D368F819D82EA3000DA2BC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8319F5181A2AAA5B0084D425 /* Reachability.swift in Sources */,
 				83CCEBAA1A11DA5A00D4D193 /* WemoWidget.swift in Sources */,
 				83D3692319D82F3F000DA2BC /* TodayViewController.swift in Sources */,
 			);
@@ -559,7 +500,6 @@
 		};
 		83D3691219D82EA3000DA2BC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15120E9E40BE9BDD5B8EB64C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = wemo_widget/wemo_widget.entitlements;
@@ -575,7 +515,6 @@
 		};
 		83D3691319D82EA3000DA2BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 024DBEC4F38869B513FF4FEB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = wemo_widget/wemo_widget.entitlements;

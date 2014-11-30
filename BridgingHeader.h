@@ -9,6 +9,4 @@
 #ifndef wemo_widget_BridgingHeader_h
 #define wemo_widget_BridgingHeader_h
 
-#import "Pods/Reachability/Reachability.h"
-
 #endif

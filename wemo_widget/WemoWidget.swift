@@ -38,10 +38,8 @@ class WemoWidget: NSObject, NSURLConnectionDataDelegate {
         ip = sharedDefaults?.stringForKey("IPAddress") ?? "192.168.1.196"
         
         if (wifiConnected()) { //wifi is connected
-            if (serverConnected()) { //wemo is avaliable... maybe
                 avaliable = true;
                 self.getStatus()
-            }
             //check current status
             //if user action before check completes, use user action to check
         }
@@ -49,21 +47,7 @@ class WemoWidget: NSObject, NSURLConnectionDataDelegate {
     }
     
     private func wifiConnected() -> Bool {
-        let wifiReach :Reachability = Reachability.reachabilityForLocalWiFi()
-        let netStatus :NetworkStatus = wifiReach.currentReachabilityStatus()
-        
-        return (netStatus == .ReachableViaWiFi)
-    }
-    
-    private func serverConnected() -> Bool {
-        let serverReachability :Reachability = Reachability(hostname: ip!)
-        let flags :SCNetworkReachabilityFlags = serverReachability.reachabilityFlags()
-        
-//        kSCNetworkReachabilityFlagsReachable = 1<<1
-//        kSCNetworkReachabilityFlagsIsDirect = 1<<17
-//        flags == 131074 == 0b100000000000000010
-        
-        return ((flags & UInt32(kSCNetworkReachabilityFlagsReachable)) > 0)
+        return (Reachability.isConnectedToNetworkOfType() == .WiFi)
     }
     
     func setStatus(lightStatus: LightState) {
