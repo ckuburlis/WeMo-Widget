@@ -9,20 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+//    NSUserDefaults share to store settings (shared with widget)
+    let sharedDefaults = NSUserDefaults(suiteName: "group.k-dev.WemoWidgetSharingDefaults")
+    
     @IBOutlet weak var IPAddressTextBox: UITextField!
-    @IBOutlet weak var portTextBox: UITextField!
     @IBOutlet weak var saveButtonOutlet: UIButton!
     
     @IBAction func saveButton(sender: AnyObject) {
 
+//        hides keyboard
         IPAddressTextBox.resignFirstResponder()
-        portTextBox.resignFirstResponder()
-        
-        
-        let sharedDefaults = NSUserDefaults(suiteName: "group.k-dev.WemoWidgetSharingDefaults")
 
+//        Puts string in NSUserDefaults and synchronises to save changes
         sharedDefaults?.setObject(IPAddressTextBox.text, forKey: "IPAddress")
-        
         sharedDefaults?.synchronize()
         
     }
@@ -31,10 +31,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let sharedDefaults = NSUserDefaults(suiteName: "group.k-dev.WemoWidgetSharingDefaults")
-        
-        IPAddressTextBox.text = sharedDefaults?.objectForKey("IPAddress") as String!
-//        portTextBox.text = sharedDefaults?.objectForKey("port") as String!
+//        Fills textbox with previously set IP or an empty string
+        IPAddressTextBox.text = sharedDefaults?.stringForKey("IPAddress") ?? ""
         
     }
 

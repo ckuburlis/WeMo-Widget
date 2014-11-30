@@ -65,7 +65,6 @@
 
 /* Begin PBXFileReference section */
 		8319F5161A2AA8D70084D425 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		8352906719D950D200879B02 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		8371839B19D9039D00470A8B /* wemo_widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wemo_widget.entitlements; sourceTree = "<group>"; };
 		8371839C19D903D900470A8B /* wemo_widget_today.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wemo_widget_today.entitlements; sourceTree = "<group>"; };
 		83CCEB931A11CBC500D4D193 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -86,6 +85,7 @@
 		83D3692219D82F3F000DA2BC /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		83D3692419D82F3F000DA2BC /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		83D3692F19D83055000DA2BC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		83FBFB611A2ACE2D00C8194D /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +119,7 @@
 		83D368E919D82EA2000DA2BC = {
 			isa = PBXGroup;
 			children = (
-				8352906719D950D200879B02 /* BridgingHeader.h */,
+				83FBFB611A2ACE2D00C8194D /* BridgingHeader.h */,
 				83D368F419D82EA3000DA2BC /* wemo_widget */,
 				83D3690A19D82EA3000DA2BC /* wemo_widgetTests */,
 				83D3691F19D82F3F000DA2BC /* wemo_widget_today */,
