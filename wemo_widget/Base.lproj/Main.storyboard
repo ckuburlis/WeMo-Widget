@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B17" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,34 +19,53 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="IP Address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TPX-3m-3dM">
-                                <rect key="frame" x="307" y="28" width="91.5" height="30"/>
+                                <rect key="frame" x="41" y="235" width="518.5" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IP Address" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHA-W7-7sV">
-                                <rect key="frame" x="202" y="32" width="83.5" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="wemo widget" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQb-va-hV0">
+                                <rect key="frame" x="41" y="45" width="518" height="40.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="N5T-Lp-jLV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="N5T-Lp-jLV"/>
+                                    </mask>
+                                </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dch-5e-MHP">
-                                <rect key="frame" x="283" y="131" width="34" height="30"/>
-                                <state key="normal" title="Save">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dch-5e-MHP">
+                                <rect key="frame" x="41" y="525" width="518" height="50"/>
+                                <color key="backgroundColor" red="0.53561093471479493" green="0.53561093471479493" blue="0.53561093471479493" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Q5b-CI-czd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Save"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="saveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qsc-Kr-vES"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.25061158459999999" green="0.25061158459999999" blue="0.25061158459999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="fHA-W7-7sV" secondAttribute="centerX" constant="56.25" id="ERY-Ak-mrc"/>
-                            <constraint firstItem="fHA-W7-7sV" firstAttribute="bottom" secondItem="TPX-3m-3dM" secondAttribute="bottom" constant="-5.5" id="GlP-X0-yz4"/>
-                            <constraint firstAttribute="centerX" secondItem="TPX-3m-3dM" secondAttribute="centerX" constant="-52.75" id="I6M-r0-f48"/>
-                            <constraint firstAttribute="centerY" secondItem="dch-5e-MHP" secondAttribute="centerY" constant="154" id="Uvp-Rf-4h2"/>
-                            <constraint firstAttribute="centerX" secondItem="dch-5e-MHP" secondAttribute="centerX" id="YbG-z6-GUz"/>
-                            <constraint firstAttribute="centerY" secondItem="fHA-W7-7sV" secondAttribute="centerY" constant="257.25" id="YsX-wG-yiY"/>
+                            <constraint firstAttribute="centerX" secondItem="dch-5e-MHP" secondAttribute="centerX" id="3Ez-u6-7Yu"/>
+                            <constraint firstItem="WQb-va-hV0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="3VE-N5-9by"/>
+                            <constraint firstAttribute="centerX" secondItem="WQb-va-hV0" secondAttribute="centerX" id="3fN-0Z-uAW"/>
+                            <constraint firstItem="TPX-3m-3dM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="5sL-93-CGZ"/>
+                            <constraint firstItem="WQb-va-hV0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="V92-5k-wxR"/>
+                            <constraint firstItem="dch-5e-MHP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="WU5-4q-Yby"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dch-5e-MHP" secondAttribute="bottom" constant="25" id="Zr1-fl-YWa"/>
+                            <constraint firstAttribute="centerX" secondItem="TPX-3m-3dM" secondAttribute="centerX" id="tad-Ct-GRU"/>
+                            <constraint firstAttribute="centerY" secondItem="TPX-3m-3dM" secondAttribute="centerY" multiplier="1.2" id="zxQ-af-jv7"/>
                         </constraints>
                     </view>
                     <connections>
