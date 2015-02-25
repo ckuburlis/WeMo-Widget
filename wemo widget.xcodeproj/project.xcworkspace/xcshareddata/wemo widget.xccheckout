@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>634CF57C-7AB1-4265-8D15-DC2329B8C8F1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>wemo widget</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2965DD43644055E2278C9FA1AC7A8DBCF3EE57B1</key>
+		<string>ssh://github.com/ckuburlis/WeMo-Widget.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>wemo widget.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2965DD43644055E2278C9FA1AC7A8DBCF3EE57B1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ckuburlis/WeMo-Widget.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2965DD43644055E2278C9FA1AC7A8DBCF3EE57B1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2965DD43644055E2278C9FA1AC7A8DBCF3EE57B1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>wemo_widget</string>
+		</dict>
+	</array>
+</dict>
+</plist>

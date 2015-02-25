@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0600"
-   version = "1.3">
+   wasCreatedForAppExtension = "YES"
+   version = "1.8">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -14,24 +15,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "83D368F119D82EA3000DA2BC"
-               BuildableName = "wemo_widget.app"
-               BlueprintName = "wemo_widget"
-               ReferencedContainer = "container:wemo_widget.xcodeproj">
+               BlueprintIdentifier = "83D3691A19D82F3F000DA2BC"
+               BuildableName = "wemo widget_today.appex"
+               BlueprintName = "wemo widget_today"
+               ReferencedContainer = "container:wemo widget.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "83D3690619D82EA3000DA2BC"
-               BuildableName = "wemo_widgetTests.xctest"
-               BlueprintName = "wemo_widgetTests"
-               ReferencedContainer = "container:wemo_widget.xcodeproj">
+               BlueprintIdentifier = "83D368F119D82EA3000DA2BC"
+               BuildableName = "wemo widget.app"
+               BlueprintName = "wemo widget"
+               ReferencedContainer = "container:wemo widget.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,61 +43,61 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "83D3690619D82EA3000DA2BC"
-               BuildableName = "wemo_widgetTests.xctest"
-               BlueprintName = "wemo_widgetTests"
-               ReferencedContainer = "container:wemo_widget.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "83D368F119D82EA3000DA2BC"
-            BuildableName = "wemo_widget.app"
-            BlueprintName = "wemo_widget"
-            ReferencedContainer = "container:wemo_widget.xcodeproj">
+            BlueprintIdentifier = "83D3691A19D82F3F000DA2BC"
+            BuildableName = "wemo widget_today.appex"
+            BlueprintName = "wemo widget_today"
+            ReferencedContainer = "container:wemo widget.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
    <LaunchAction
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       launchStyle = "0"
+      askForAppToLaunch = "Yes"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83D368F119D82EA3000DA2BC"
-            BuildableName = "wemo_widget.app"
-            BlueprintName = "wemo_widget"
-            ReferencedContainer = "container:wemo_widget.xcodeproj">
+            BuildableName = "wemo widget.app"
+            BlueprintName = "wemo widget"
+            ReferencedContainer = "container:wemo widget.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
+      <IDERemoteRunnable
+         RemotePath = "/Today-View"
+         BundleIdentifier = "/Today-View">
+      </IDERemoteRunnable>
+      <IDERemoteRunnable
+         RemotePath = "/Today-View"
+         BundleIdentifier = "/Today-View">
+      </IDERemoteRunnable>
    </LaunchAction>
    <ProfileAction
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
-      debugDocumentVersioning = "YES">
+      debugDocumentVersioning = "YES"
+      askForAppToLaunch = "Yes">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83D368F119D82EA3000DA2BC"
-            BuildableName = "wemo_widget.app"
-            BlueprintName = "wemo_widget"
-            ReferencedContainer = "container:wemo_widget.xcodeproj">
+            BuildableName = "wemo widget.app"
+            BlueprintName = "wemo widget"
+            ReferencedContainer = "container:wemo widget.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
