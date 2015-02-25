@@ -509,7 +509,7 @@
 				INFOPLIST_FILE = wemo_widget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "wemo widget";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "2d8bdc84-335c-4b15-9343-3f2182611744";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
@@ -526,7 +526,7 @@
 				INFOPLIST_FILE = wemo_widget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "wemo widget";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "2d8bdc84-335c-4b15-9343-3f2182611744";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
@@ -581,7 +581,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "wemo widget_today";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "f780a445-88a0-4c79-a444-f02568a875c7";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
@@ -598,7 +598,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "wemo widget_today";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "f780a445-88a0-4c79-a444-f02568a875c7";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
