@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
 //    NSUserDefaults share to store settings (shared with widget)
     let sharedDefaults = NSUserDefaults(suiteName: "group.k-dev.WemoWidgetSharingDefaults")
@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var IPAddressTextBox: UITextField!
     @IBOutlet weak var saveButtonOutlet: UIButton!
     
-    @IBAction func saveButton(sender: AnyObject) {
+    @IBAction func saveButton(sender: AnyObject?) {
 
 //        hides keyboard
         IPAddressTextBox.resignFirstResponder()
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         sharedDefaults?.synchronize()
         
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -34,8 +34,16 @@ class ViewController: UIViewController {
 //        Fills textbox with previously set IP or an empty string
         IPAddressTextBox.text = sharedDefaults?.stringForKey("IPAddress") ?? ""
         
+        IPAddressTextBox.delegate = self
+        
     }
-
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        saveButton(nil)
+        return true
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
